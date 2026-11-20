@@ -1,4 +1,4 @@
 interface:
   display_name: "Pencil to Figma"
-  short_description: "用 Pencil 制稿并通过本地脚本追加到指定 Figma 页面"
+  short_description: "将 Pencil 设计稿导入 Figma，默认保留可编辑文字"
   default_prompt: "使用 $pencil-to-figma，用 Pencil 制作或修改设计稿，然后导入我指定的 Figma Design 文件。"

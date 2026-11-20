@@ -1,6 +1,6 @@
 # Pencil to Figma
 
-一个 Codex Skill，用 Pencil（pen.dev）制作或修改设计稿，逐画板导出 SVG，再通过本机 Figwright 追加到指定的 Figma Design 页面。
+一个 Codex Skill，用 Pencil（pen.dev）制作或修改设计稿，逐画板导出 SVG，并通过本机 Figwright 将画板追加到指定的 Figma Design 页面，默认保留可编辑文字。
 
 ## 安装
 
@@ -31,7 +31,7 @@ git clone https://github.com/ilielindley-crypto/pencil-to-figma.git
 
 - 每个画板对应一个 SVG，同时保留可编辑的 `.pen` 源稿。
 - 导入只定位目标页面并核对本次新建的画板。已有设计内容不参与转换。
-- PDF 转 SVG 路径会将文字转为轮廓。原有文本、组件绑定和自动布局可在 Pencil 源稿中继续编辑。
+- Figma 画板默认使用源稿中的文本创建原生文字层，支持双击编辑。导入后按节点核对文字，并检查换行和截断。缺少对应字体或字重时会说明替代情况。独立 SVG 仍可转曲以保留外观。
 
 入口和完整步骤见 [SKILL.md](SKILL.md)。
 
